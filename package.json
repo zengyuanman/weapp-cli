@@ -1,0 +1,23 @@
+{
+	"name": "weapp-cli",
+	"version": "1.0.0.alpha",
+	"description": "快速创建一个微信小程序模板",
+	"main": "index.js",
+	"scripts": {
+	},
+  "author": "Weiber Zeng",
+  "license": "MIT",
+	"bin": {
+		"weapp": "index.js"
+	},
+	"dependencies": {
+		"chalk": "^4.1.0",
+		"commander": "^6.2.1",
+		"download-git-repo": "^3.0.2",
+		"inquirer": "^7.3.3",
+		"log-symbols": "^4.0.0",
+		"node-notifier": "^9.0.0",
+		"ora": "^5.1.0",
+		"shelljs": "^0.8.4"
+	}
+}
